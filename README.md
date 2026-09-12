@@ -58,18 +58,6 @@ python ./src/generate_finetuning_data_for_generator_agent.py
 cd ./LLaMA-Factory/
 llamafactory-cli train examples/train_lora/qwen_3_8b_lora_sft.yaml
 ```
-### 微调结果
-Data1：地质灾害相关问答（事实问答、开放性问答、推理问答、总结问答）
-![alt text](./figs/overall_comparison.png)
-![alt text](./figs/radar_charts.png)
-Data2：注册岩土工程师考试题库测试（单选题）
-| 模型	|正确率 |
-|-------|-------|
-| Gemini-2.0-flash | 66.27% |
-| claude-haiku-4-5-20251001 | 63.45% |
-| gpt-4o-2024-11-20 | 63.05% |
-| Qwen3_base | 61.45% |
-| Qwen3_lora | 66.27% |
 
 ## Qwen3 RAG系统构建
 
