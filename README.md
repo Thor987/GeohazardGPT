@@ -1,4 +1,4 @@
-# Qwen3-SFT-RAG
+# GeohazardGPT
 Vertical domain Supervised Fine-Tuning, and Retrieval Augmented Generation for geological disasters
 
 ## 数据收集
