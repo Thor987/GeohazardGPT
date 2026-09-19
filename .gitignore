@@ -1,0 +1,36 @@
+# Local data and generated artifacts
+data/
+output/
+outputs/
+*.jsonl
+*.parquet
+*.json
+*.csv
+*.xlsx
+
+# Local model and vector-store artifacts
+models/
+checkpoints/
+chroma_db*/
+*.bin
+*.pkl
+
+# Secrets and local configuration
+.env
+*.env
+config.local.*
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Editors and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

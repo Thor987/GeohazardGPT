@@ -1,0 +1,29 @@
+# Core preprocessing and metadata
+pandas
+openpyxl
+requests
+rapidfuzz
+PyMuPDF
+pyarrow
+
+# Semantic filtering
+sentence-transformers
+faiss-cpu
+tqdm
+
+# Local embedding, reranking, and generation
+torch
+transformers
+accelerate
+peft
+llamafactory
+chromadb
+
+# Optional teacher-model adapter
+openai
+
+# Dataverse/Spark preprocessing
+omegaconf
+pyspark
+dataverse
+# fasttext is required only when --language-model is used with parquet_process.py.
